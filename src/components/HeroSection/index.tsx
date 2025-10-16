@@ -1,4 +1,4 @@
-import { Group, Heart, Shield, UserPlus } from "lucide-react";
+import { Heart, Shield, UserPlus } from "lucide-react";
 import CardServices from "./CardServices/cards";
 
 export default function HeroSection() {
@@ -8,7 +8,6 @@ export default function HeroSection() {
             icon: <Heart className="text-blue-500 rounded-xl" />,
             title: "Acolhimento",
             description: "Profissionais capacitados em atendimento inclusivo",
-
         },
 
         {
@@ -29,7 +28,7 @@ export default function HeroSection() {
 
     ]
     return (
-        <section className="flex flex-col md:flex-row md:justify-between bg-gradient-to-b from-[#018762]/60 to-green-300/30 p-5 sm:p-10 md:p-20">
+        <section className="flex flex-col md:flex-row md:justify-between bg-gradient-to-b  to-green-400/30  p-5 sm:p-10 md:p-20">
             <div className="flex flex-col items-center md:items-start text-center md:text-left gap-6 md:gap-10 md:max-w-lg lg:max-w-2xl">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
                     Cuidado de saúde <br />
