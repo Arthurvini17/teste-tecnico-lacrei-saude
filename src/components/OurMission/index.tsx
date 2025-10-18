@@ -30,7 +30,7 @@ const CardListData = [
 export default function OurMission() {
     return (
 
-        <section className="mt-20 sm:flex sm:items-center sm:justify-center sm:text-center sm:flex-col flex flex-col max-w-xl p-2 text-center">
+        <section className="mt-20 sm:flex sm:items-center sm:justify-center sm:text-center sm:flex-col flex flex-col  text-center">
             <div>
                 <h2 className=" text-[#018762]">Nossa missão</h2>
                 <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground sm:text-4xl  text-balance">Transformar o acesso à saúde para a comunidade LGBTQIA+</h2>
@@ -39,10 +39,10 @@ export default function OurMission() {
 
 
             <div>
-                <h1 className="font-semibold mt-5">Nossos valores</h1>
+                <h1 className="font-semibold sm:mt-5">Nossos valores</h1>
             </div>
 
-            <div className="sm:flex sm:flex-row  flex flex-col items-center gap-10  p-20  ">
+            <div className="sm:flex sm:flex-row  flex flex-col items-center gap-10 mt-10 sm:mt-2 p-20  ">
                 {CardListData.map((card, index) => (
                     <CardList
                         key={index}
