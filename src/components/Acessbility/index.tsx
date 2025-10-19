@@ -2,7 +2,7 @@ import { Shield } from "lucide-react"
 
 export default function Acessbility() {
     return (
-        <section className="flex  flex-col md:flex-row md:justify-between bg-gradient-to-b  to-green-400/30 gap-20  sm:p-20 px-10">
+        <section id="Acessbilidade" className="flex  flex-col md:flex-row md:justify-between bg-gradient-to-b  to-green-400/30 gap-20  sm:p-20 px-10">
             <div className="">
                 <div className="sm:max-w-xl sm:gap-5 sm:flex sm:flex-col  flex flex-col gap-5 text-start  ">
                     <h1 className="font-bold sm:text-2xl text-2xl  max-w-xl ">Compromisso com a acessibilidade</h1>

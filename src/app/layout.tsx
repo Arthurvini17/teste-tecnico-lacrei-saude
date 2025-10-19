@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
 import { Poppins } from "next/font/google";
 
 // const geistSans = Geist({
@@ -32,7 +31,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased bg-black text-white`}>
-        <Header />
         {children}
       </body>
     </html>

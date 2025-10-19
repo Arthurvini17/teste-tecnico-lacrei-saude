@@ -1,4 +1,4 @@
-import CardServices from "../HeroSection/CardServices/cards";
+
 import { Eye, Heart, Rainbow, Star } from "lucide-react";
 import CardList from "./CardList";
 
@@ -30,7 +30,7 @@ const CardListData = [
 export default function OurMission() {
     return (
 
-        <section className="mt-20 sm:flex sm:items-center sm:justify-center sm:text-center sm:flex-col flex flex-col  text-center">
+        <section id="OurMission" className="mt-20 sm:flex sm:items-center sm:justify-center sm:text-center sm:flex-col flex flex-col  text-center">
             <div>
                 <h2 className=" text-[#018762]">Nossa missão</h2>
                 <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground sm:text-4xl  text-balance">Transformar o acesso à saúde para a comunidade LGBTQIA+</h2>
