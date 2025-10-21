@@ -30,6 +30,19 @@ O desafio consistiu em desenvolver uma **landing page moderna, funcional e respo
 
 ---
 
+## Prints Lighthouse mobile + Notas e otimizações
+
+- **Performance:** 82  
+- **Accessibility:** 95  
+- **Best Practices:** 100  
+- **SEO:** 98  
+
+<img width="1088" height="639" alt="Captura de tela 2025-10-21 095342" src="https://github.com/user-attachments/assets/aa6aa964-7e12-455f-ab94-a211fdbc8e81" />
+
+
+<img width="1022" height="601" alt="Captura de tela 2025-10-21 095406" src="https://github.com/user-attachments/assets/50464bc3-cf6f-4b1b-adf7-1b8c2f597912" />
+
+
 ```bash
-exemplo: desafio-tecnico-lacrei-saude.vercel.app
+ desafio-tecnico-lacrei-saude.vercel.app
 ```
