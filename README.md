@@ -30,18 +30,27 @@ O desafio consistiu em desenvolver uma **landing page moderna, funcional e respo
 
 ---
 
+## Testes com Jest
+
+Durante o desenvolvimento deste projeto, foi configurado o ambiente de testes utilizando Jest e Testing Library com o objetivo de validar os componentes React.
+
+No entanto, o Next.js 15 (Turbopack) — atualmente utilizado neste projeto — não oferece suporte ao Babel, que é necessário para a execução dos testes com Jest.
+
+⚠️ Motivo técnico
+
+O Turbopack é o novo empacotador experimental do Next.js que substitui o Webpack, mas ainda não possui compatibilidade com Babel.
+Como o Jest depende do Babel para transpilar os arquivos antes de executar os testes, o erro abaixo ocorre ao tentar rodá-los:
+
 ## Prints Lighthouse mobile + Notas e otimizações
 
-- **Performance:** 82  
-- **Accessibility:** 95  
-- **Best Practices:** 100  
-- **SEO:** 98  
+- **Performance:** 82
+- **Accessibility:** 95
+- **Best Practices:** 100
+- **SEO:** 98
 
 <img width="1088" height="639" alt="Captura de tela 2025-10-21 095342" src="https://github.com/user-attachments/assets/aa6aa964-7e12-455f-ab94-a211fdbc8e81" />
 
-
 <img width="1022" height="601" alt="Captura de tela 2025-10-21 095406" src="https://github.com/user-attachments/assets/50464bc3-cf6f-4b1b-adf7-1b8c2f597912" />
-
 
 ```bash
  desafio-tecnico-lacrei-saude.vercel.app
