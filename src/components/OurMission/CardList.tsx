@@ -6,8 +6,8 @@ type CardListProps = {
 
 export default function CardList({ title, description, icon }: CardListProps) {
     return (
-        <section>
-            <div className="  sm:rounded-lg  sm:shadow-md sm:w-70 items-center justify-center  flex flex-col sm:flex  p-10 w-80 bg-gray-50 shadow">
+        <section className="w-full flex justify-center">
+            <div className="sm:rounded-lg sm:shadow-md items-center justify-center flex flex-col p-8 w-full max-w-sm bg-gray-50 shadow h-full">
                 <div className="">{icon}</div>
                 <h1 className="font-bold text-lg">{title}</h1>
                 <p className="">{description}</p>

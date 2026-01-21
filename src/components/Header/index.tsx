@@ -8,7 +8,7 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="w-full bg-transparent]">
+        <header className="w-full bg-transparent">
             <nav className="flex items-center justify-between h-16 px-6 md:px-12 relative">
                 <div className="inline-flex items-center gap-2 font-semibold text-[#018762] text-lg">
                     <HeartHandshake />
@@ -65,7 +65,7 @@ export default function Header() {
             {/* menu mobile */}
             {
                 menuOpen && (
-                    <div className="md:hidden flex flex-col items-center gap-6 py-8 bg-white shadow-2xl border-t border-[#018762]/20 animate-fadeIn">
+                    <div className="md:hidden flex flex-col items-center gap-6 py-8 bg-white shadow-2xl border-t border-[#018762]/20 animate-fadeIn absolute top-16 left-0 w-full z-50">
                         <ul className="flex flex-col items-center w-full gap-4 pt-4 border-t border-[#018762]/10">
                             <li>
                                 <a

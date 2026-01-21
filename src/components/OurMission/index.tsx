@@ -42,7 +42,7 @@ export default function OurMission() {
                 <h1 className="font-semibold sm:mt-5">Nossos valores</h1>
             </div>
 
-            <div className="sm:flex sm:flex-row  flex flex-col items-center gap-10 mt-10 sm:mt-2 p-20  ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 p-5 sm:p-20 w-full max-w-7xl mx-auto">
                 {CardListData.map((card, index) => (
                     <CardList
                         key={index}

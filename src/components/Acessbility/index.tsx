@@ -18,10 +18,10 @@ export default function Acessbility() {
 
             </div>
 
-            <div className="bg-white sm:p-5 sm:mb-20 sm:rounded-xl sm:shadow-xl  items-center self-center  md:w-1/2  w-60 rounded-xl">
-                <div className="sm:flex sm:flex-col flex flex-col items-center text-center  sm:gap-5 sm:items-center ">
-                    <Shield className="text-[#018762] sm:w-10 sm:h-10 " />
-                    <h1 className="sm:text-4xl  text-[#018762] font-bold">WCAG 2.1</h1>
+            <div className="bg-white p-8 sm:mb-20 rounded-xl shadow-xl flex flex-col items-center self-center w-full max-w-md">
+                <div className="flex flex-col items-center text-center gap-4">
+                    <Shield className="text-[#018762] w-12 h-12" />
+                    <h1 className="text-3xl sm:text-4xl text-[#018762] font-bold">WCAG 2.1</h1>
                     <p>Certificado de conformidade com padrões internacionais de acessibilidade</p>
                 </div>
             </div>

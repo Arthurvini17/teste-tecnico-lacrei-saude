@@ -51,7 +51,7 @@ export default function HeroSection() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2  gap-6 sm:gap-10 mt-10 md:mt-0 self-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 mt-10 md:mt-0 self-center w-full md:w-auto justify-items-center">
                 {CardsServicesData.map((card, index) => (
                     <CardServices
                         key={index}
